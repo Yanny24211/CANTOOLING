@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Logs
+*.log
+*.asc
+*.blf
+*.csv
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
