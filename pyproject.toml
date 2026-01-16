@@ -1,0 +1,15 @@
+[project]
+name = "can-tooling"
+version = "0.1.0"
+description = "CAN bus simulation and parsing tools"
+requires-python = ">=3.10"
+
+dependencies = [
+    "python-can",
+    "cantools",
+    "rich"
+]
+
+[project.scripts]
+can-monitor = "apps.live_monitor:main"
+can-logger = "apps.logger:main"
