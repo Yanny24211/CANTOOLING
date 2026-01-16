@@ -1,0 +1,5 @@
+python-can
+cantools
+pyserial
+rich
+
