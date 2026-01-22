@@ -20,40 +20,44 @@ def main():
     braking = False
     left = False
     right = False
+    try:
+        while True:
+            # Simulate driving
+            throttle = max(0, min(100, throttle + random.uniform(-5, 5)))
+            speed = max(0, speed + throttle * 0.01 - (5 if braking else 0))
 
-    while True:
-        # Simulate driving
-        throttle = max(0, min(100, throttle + random.uniform(-5, 5)))
-        speed = max(0, speed + throttle * 0.01 - (5 if braking else 0))
+            braking = random.random() < 0.1
+            left = random.random() < 0.05
+            right = not left and random.random() < 0.05
 
-        braking = random.random() < 0.1
-        left = random.random() < 0.05
-        right = not left and random.random() < 0.05
+            vehicle_data = vehicle_msg.encode({
+                "Throttle": throttle,
+                "Brake": 80 if braking else 0,
+                "Speed": speed,
+            })
 
-        vehicle_data = vehicle_msg.encode({
-            "Throttle": throttle,
-            "Brake": 80 if braking else 0,
-            "Speed": speed,
-        })
+            turn_data = turn_msg.encode({
+                "Left": int(left),
+                "Right": int(right),
+            })
 
-        turn_data = turn_msg.encode({
-            "Left": int(left),
-            "Right": int(right),
-        })
+            bus.send(can.Message(
+                arbitration_id=vehicle_msg.frame_id,
+                data=vehicle_data,
+                is_extended_id=False
+            ))
 
-        bus.send(can.Message(
-            arbitration_id=vehicle_msg.frame_id,
-            data=vehicle_data,
-            is_extended_id=False
-        ))
+            bus.send(can.Message(
+                arbitration_id=turn_msg.frame_id,
+                data=turn_data,
+                is_extended_id=False
+            ))
 
-        bus.send(can.Message(
-            arbitration_id=turn_msg.frame_id,
-            data=turn_data,
-            is_extended_id=False
-        ))
-
-        time.sleep(0.1)  # 10 Hz
+            time.sleep(0.5)  # 50 Hz
+    except KeyboardInterrupt:
+        print("Exiting ECU Sim ...")
+    finally:
+        bus.shutdown()
 
 if __name__ == "__main__":
     main()
