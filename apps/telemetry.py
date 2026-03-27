@@ -29,13 +29,12 @@ RISK_RULES = [
     {'name': 'Aggressive throttle', 'check': lambda s: s.get('Throttle', 0) > 80, 'level': 'Medium'},
     {'name': 'Hard braking', 'check': lambda s: s.get('Brake', 0) > 70, 'level': 'Medium'},
     {'name': 'Sharp steering', 'check': lambda s: abs(s.get('Steering', 0)) > 30, 'level': 'Medium'},
-    {'name': 'No turn signal while turning', 'check': lambda s: abs(s.get('Steering', 0)) > 10 and not (s.get('Left') or s.get('Right')), 'level': 'Low'},
+    {'name': 'No turn signal while turning', 'check': lambda s: abs(s.get('Steering', 0)) > 10 and (s.get('Turn_State') == "Off"), 'level': 'Low'},
     {'name': 'High-speed swerving', 'check': lambda s: s.get('Speed', 0) > 80 and abs(s.get('Steering', 0)) > 20, 'level': 'High'},
     {'name': 'Hard acceleration', 'check': lambda s: s.get('Speed', 0) < 20 and s.get('Throttle', 0) > 85, 'level': 'Medium'},
-    {'name': 'Unsafe reverse speed', 'check': lambda s: s.get('Speed', 0) < -15, 'level': 'Medium'},
-    {'name': 'Unsafe reverse speed', 'check': lambda s: s.get('Speed', 0) < -15, 'level': 'Medium'},
+    {'name': 'Unsafe reverse speed', 'check': lambda s: s.get('Gear_Position') == 'Reverse' and s.get('Speed', 0) < -15, 'level': 'Medium'},
     {'name': 'Late braking reaction (Distracted)', 'check': lambda s: s.get('Brake', 0) > 60 and s.get('head_direction') == 'LOST', 'level': 'High'},
-    {'name': 'Unsignaled lane departure', 'check': lambda s: s.get('Speed', 0) > 60 and 5 < abs(s.get('Steering', 0)) < 15 and not (s.get('Left') or s.get('Right')), 'level': 'Medium'},
+    {'name': 'Unsignaled lane departure', 'check': lambda s: s.get('Speed', 0) > 60 and 5 < abs(s.get('Steering', 0)) < 15  and (s.get('Turn_State') == "Off"), 'level': 'Medium'},
 ]
 
 ATTENTION_RULES = [
