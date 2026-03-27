@@ -114,7 +114,7 @@ def main():
     camera_thread = threading.Thread(target=cam_polling, daemon=True)
     camera_thread.start()
     reader = CANReader("dbc/nissan_versa_2014.dbc")
-    temp_frame = {}  # holds full frame with ids 256, 257, 258
+    temp_frame = {}  # holds full frame with ids 384, 644, 645, 658, 1549, 2, 1057, 1477
 
     while True:
         frame = reader.read()
