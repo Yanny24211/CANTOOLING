@@ -121,19 +121,18 @@ def main():
         if frame:
             frame_id = frame['id']
             signals = frame['signals']
+            categorized_path = 'categorized_data.json'
+            with open(categorized_path, 'w') as json_file:    
+                if frame_id in [384, 644, 645, 658, 1549, 2, 1057, 1477]:
+                    temp_frame[frame_id] = signals
 
-            if frame_id in [384, 644, 645, 658, 1549, 2, 1057, 1477]:
-                temp_frame[frame_id] = signals
-
-            # Once we have all 3 messages, evaluate
-            if all(k in temp_frame for k in [384, 644, 645, 658, 1549, 2, 1057, 1477]):
-                result = evaluate_risk(temp_frame) 
-                #writes latest frame to file 
-                categorized_path = 'categorized_data.json'
-                with open(categorized_path, 'w') as json_file:
+                # Once we have all 3 messages, evaluate
+                if all(k in temp_frame for k in [384, 644, 645, 658, 1549, 2, 1057, 1477]):
+                    result = evaluate_risk(temp_frame) 
+                    #writes latest frame to file 
                     json.dump(result , json_file, indent=4)
-                print(json.dumps(result, indent=4))
-                temp_frame = {}  # reset for next frame
+                    print(json.dumps(result, indent=4))
+                    temp_frame = {}  # reset for next frame
 
 if __name__ == "__main__":
     main()
