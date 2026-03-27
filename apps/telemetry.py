@@ -1,8 +1,20 @@
 import json
 import requests
 import time
+import paho.mqtt.client as mqtt
 import threading
 from rascan.reader import CANReader
+import os
+from datetime import datetime, timezone
+from dotenv import load_dotenv
+load_dotenv()
+
+BROKER_HOST = os.getenv('BROKER_HOST')
+BROKER_PORT = os.getenv('BROKER_PORT')
+USERNAME = os.getenv('USERNAME')
+PASSWORD = os.getenv('PASSWORD')
+VEHICLE_ID = os.getenv('VEHICLE_ID')
+TOPIC = "incidents/reports"
 
 api_lock = threading.Lock()
 latest_api_data = {
@@ -33,6 +45,26 @@ ATTENTION_RULES = [
     {'name': 'Driver is drowsy', 'check': lambda s: s['driver_status'] == 'DROWSY' and s['head_direction'] in ['FORWARD', 'LEFT', 'RIGHT'], 'level': 'Medium'},
     {'name': 'Failed to complete observation',  'check': lambda s: s['driver_status'] == 'ALERT' and s['head_direction'] in ['FORWARD', 'LEFT', 'RIGHT'] and s['observation_complete'] is False, 'level': 'Low'}
 ]
+
+def mqtt_setup():
+    client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)
+    client.username_pw_set(USERNAME, PASSWORD)
+    client.tls_set()
+
+    def on_connect(client, userdata, flags, reason_code, properties):
+        if reason_code == 0:
+            print("[SYSTEM] Connected to MQTT broker")
+        else:
+            print(f"[ERROR] MQTT Connection failed with code {reason_code}")
+
+    client.on_connect = on_connect
+    client.connect(BROKER_HOST, BROKER_PORT, 60)
+    client.loop_start() # Runs the network loop in a background thread
+    return client
+
+def publish_risk_event(mqtt_client, result):
+    mqtt_client.publish(TOPIC, json.dumps(result), qos=1)
+    print(f"[MQTT] Published risk payload: {result['Risk Level']}")
 
 def cam_polling(hz=24):
     global latest_api_data
@@ -85,54 +117,67 @@ def evaluate_risk(temp_frame):
     with open(raw_signals_path, 'w') as json_file:
         json.dump(signals_combined , json_file, indent=4)
 
-    risks = []
+    risks = {
+        ris
+    }
     for rule in RISK_RULES:
         check_signals = signals_combined.copy()
         if rule['check'](check_signals):
             risks.append({'behavior': rule['name'], 'level': rule['level']})
 
+    risks.extend(camera_check())
+
     # Determine overall risk
     if any(r['level'] == 'High' for r in risks):
-        overall = 'High'
+        overall_risk = 'High'
     elif any(r['level'] == 'Medium' for r in risks):
-        overall = 'Medium'
+        overall_risk = 'Medium'
     elif any(r['level'] == 'Low' for r in risks):
-        overall = 'Low'
+        overall_risk = 'Low'
     else:
-        overall = 'Safe'
-
-    risks.extend(evaluate_risk())
+        overall_risk = 'Safe'
 
     return {
-        'Signals': signals_combined,
-        'Risk Level': overall,
-        'Risks': risks
+        "device_id":VEHICLE_ID,
+        "risk_types": ", ".join(r['behaviour'] for r in risks),
+        "location": {"lat": 43.6564398, "lon": -79.3767335},
+        "severity": overall_risk,
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        'additional_data': signals_combined,
+       
     }
 
 def main():
-
+    mqtt_client = mqtt_setup()
     camera_thread = threading.Thread(target=cam_polling, daemon=True)
     camera_thread.start()
     reader = CANReader("dbc/nissan_versa_2014.dbc")
     temp_frame = {}  # holds full frame with ids 384, 644, 645, 658, 1549, 2, 1057, 1477
+    try: 
+        with open(categorized_path, 'w') as json_file:  
+            while True:
+                frame = reader.read()           
+                if frame:
+                    frame_id = frame['id']
+                    signals = frame['signals']
+                    categorized_path = 'categorized_data.json'              
+                    if frame_id in [384, 644, 645, 658, 1549, 2, 1057, 1477]:
+                        temp_frame[frame_id] = signals
 
-    while True:
-        frame = reader.read()
-        if frame:
-            frame_id = frame['id']
-            signals = frame['signals']
-            categorized_path = 'categorized_data.json'
-            with open(categorized_path, 'w') as json_file:    
-                if frame_id in [384, 644, 645, 658, 1549, 2, 1057, 1477]:
-                    temp_frame[frame_id] = signals
-
-                # Once we have all 3 messages, evaluate
-                if all(k in temp_frame for k in [384, 644, 645, 658, 1549, 2, 1057, 1477]):
-                    result = evaluate_risk(temp_frame) 
-                    #writes latest frame to file 
-                    json.dump(result , json_file, indent=4)
-                    print(json.dumps(result, indent=4))
-                    temp_frame = {}  # reset for next frame
+                    # Once we have all 3 messages, evaluate
+                    if all(k in temp_frame for k in [384, 644, 645, 658, 1549, 2, 1057, 1477]):
+                        result = evaluate_risk(temp_frame) 
+                        if result['Risk Level'] != 'Safe':
+                            publish_risk_event(mqtt_client, result)
+                        #writes latest frame to file 
+                        json.dump(result , json_file, indent=4)
+                        print(json.dumps(result, indent=4))
+                        temp_frame = {}  # reset for next frame
+    except KeyboardInterrupt: 
+        print("\n[SYSTEM] Shutting Down...")
+    finally: 
+        mqtt_client.loop_stop()
+        mqtt_client.disconnect()
 
 if __name__ == "__main__":
     main()
