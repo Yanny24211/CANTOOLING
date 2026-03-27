@@ -1,0 +1,52 @@
+VERSION ""
+
+NS_ :
+
+BS_:
+
+BU_: ECU
+
+BO_ 384 Engine: 8 ECU
+ SG_ Throttle : 8|8@1+ (1.0,0.0) [0|255] "%" ECU
+ 
+BO_ 644 VehicleSpeed: 8 ECU
+ SG_ Speed : 48|8@1+ (1.0,0.0) [0|255] "km/h" ECU
+ SG_ Speed_Front : 0|16@1+ (1,0) [0|65535] "raw" ECU
+
+BO_ 658 BrakePercentage: 8 ECU
+ SG_ Brake : 48|8@1+ (1.0,0.0) [0|255] "%" ECU
+
+BO_ 1549 TurnSignals: 8 Vector__XXX
+ SG_ Turn_State : 13|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Headlight_State : 1|2@1+ (1,0) [0|3] "" Vector__XXX
+ SG_ Door_Driver : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Door_Passenger : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Door_Rear_Left : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ Door_Rear_Right : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+ SG_ High_Beams : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2 Steering: 5 XXX
+ SG_ COUNTER : 35|4@0+ (1,0) [0|255] "" XXX
+ SG_ STEERING_ANGLE : 0|16@1- (0.1,0) [-720|720] "deg" XXX
+ SG_ POWER_STEER_RATE : 23|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 1057 Gear_Shifter_421: 8 Vector__XXX
+ SG_ Gear_Position : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 1477 Handbrake_5C5: 8 Vector__XXX
+ SG_ Handbrake_Active : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 645 Wheels_R: 8 ECU
+ SG_ Speed_Rear : 0|16@1+ (1,0) [0|65535] "raw" ECU
+
+VAL_ 1549 Turn_State 3 "Hazards" 2 "Right" 1 "Left" 0 "Off" ;
+VAL_ 1549 Headlight_State 3 "On Second" 2 "On First" 0 "Off" ;
+VAL_ 1549 Door_Driver 1 "Open" 0 "Closed" ;
+VAL_ 1549 Door_Passenger 1 "Open" 0 "Closed" ;
+VAL_ 1549 Door_Rear_Left 1 "Open" 0 "Closed" ;
+VAL_ 1549 Door_Rear_Right 1 "Open" 0 "Closed" ;
+VAL_ 1549 High_Beams 1 "On" 0 "Off" ;
+
+VAL_ 1057 Gear_Position 48 "Low Gear" 32 "Drive" 24 "Neutral" 16 "Reverse" 8 "Park" 0 "Unknown" ;
+
+VAL_ 1477 Handbrake_Active 1 "On" 0 "Off" ;
