@@ -66,9 +66,9 @@ def mqtt_setup():
 
     def on_connect(client, userdata, flags, reason_code, properties):
         if reason_code == 0:
-            print("[SYSTEM] Connected to MQTT broker")
+            print("[RAS] Connected to MQTT broker")
         else:
-            print(f"[ERROR] MQTT Connection failed with code {reason_code}")
+            print(f"[RAS ERROR] MQTT Connection failed with code {reason_code}")
 
     client.on_connect = on_connect
     client.connect(BROKER_HOST, BROKER_PORT, 60)
@@ -186,7 +186,7 @@ def main():
             # Now you can use config_data throughout your telemetry logic
             
         except json.JSONDecodeError:
-            print("[ERROR] Failed to decode arguments.")
+            print("[RAS ERROR] Failed to decode arguments.")
     else:
         VEHICLE_MAKE = "Nissan"
         VEHICLE_MODEL = "Versa"
@@ -230,7 +230,7 @@ def main():
                             temp_frame = {}  # reset for next frame
                             frame_counter = 0
     except KeyboardInterrupt: 
-        print("\n[SYSTEM] Shutting Down...")
+        print("\n[RAS] Shutting Down...")
     finally: 
         mqtt_client.loop_stop()
         mqtt_client.disconnect()

@@ -23,3 +23,5 @@ venv/
 .venv/*
 can_log*
 dbc/_nissan_common.dbc
+dbc/nissan_general.dbc
+apps/init_connection.py
