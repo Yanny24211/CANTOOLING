@@ -1,9 +1,18 @@
 {
-    "Throttle": 26.400000000000002,
-    "Brake": 0.0,
-    "Speed": 0.56,
-    "Steering": 12.4,
-    "Left": 0,
-    "Right": 0,
-    "Timestamp": 941.748
+    "Throttle": 0.0,
+    "Speed": 0.0,
+    "Speed_Rear": 0.0,
+    "Brake": 36,
+    "Headlight_State": "On Second",
+    "Door_Driver": "Closed",
+    "Door_Passenger": "Closed",
+    "Door_Rear_Left": "Closed",
+    "Door_Rear_Right": "Closed",
+    "High_Beams": "Off",
+    "Turn_State": "Off",
+    "Steering": -2.0,
+    "POWER_STEER_RATE": 0,
+    "COUNTER": 4,
+    "Gear_Position": "Park",
+    "Handbrake_Active": "Off"
 }

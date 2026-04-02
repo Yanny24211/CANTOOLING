@@ -10,8 +10,7 @@ BO_ 384 Engine: 8 ECU
  SG_ Throttle : 40|8@1+ (0.5,0) [0|100] "%" ECU
  
 BO_ 644 VehicleSpeed: 8 ECU
- SG_ Speed : 48|8@1+ (1.0,0.0) [0|255] "km/h" ECU
- SG_ Speed_Front : 7|16@0+ (0.005,0) [0|250] "km/h" ECU
+ SG_ Speed : 7|16@0+ (0.005,0) [0|250] "km/h" ECU
 
 BO_ 645 Wheels_R: 8 ECU
  SG_ Speed_Rear : 7|16@0+ (0.005,0) [0|250] "km/h" ECU
@@ -30,13 +29,13 @@ BO_ 1549 TurnSignals: 8 Vector__XXX
 
 BO_ 2 Steering: 5 XXX
  SG_ COUNTER : 35|4@0+ (1,0) [0|255] "" XXX
- SG_ STEERING_ANGLE : 0|16@1- (0.1,0) [-720|720] "deg" XXX
+ SG_ Steering : 0|16@1- (0.1,0) [-720|720] "deg" XXX
  SG_ POWER_STEER_RATE : 23|8@0+ (1,0) [0|255] "" XXX
 
-BO_ 1057 Gear_Shifter_421: 3 Vector__XXX
+BO_ 1057 Gear_Shifter: 3 Vector__XXX
  SG_ Gear_Position : 0|8@1+ (1,0) [0|255] "" Vector__XXX
 
-BO_ 1477 Handbrake_5C5: 8 Vector__XXX
+BO_ 1477 Handbrake: 8 Vector__XXX
  SG_ Handbrake_Active : 2|1@1+ (1,0) [0|1] "" Vector__XXX
 
 

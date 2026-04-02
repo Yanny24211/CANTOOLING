@@ -8,13 +8,27 @@ import os
 from datetime import datetime, timezone
 from dotenv import load_dotenv
 load_dotenv()
+import sys
+import json
+import gpsd
 
+class CANEncoder(json.JSONEncoder):
+    """Custom JSON encoder to handle cantools NamedSignalValue objects"""
+    def default(self, obj):
+        if type(obj).__name__ == 'NamedSignalValue':
+            return str(obj)
+        return super().default(obj)
+    
 BROKER_HOST = os.getenv('BROKER_HOST')
-BROKER_PORT = os.getenv('BROKER_PORT')
+BROKER_PORT = int(os.getenv('BROKER_PORT'))
 USERNAME = os.getenv('USERNAME')
 PASSWORD = os.getenv('PASSWORD')
-VEHICLE_ID = os.getenv('VEHICLE_ID')
 TOPIC = "incidents/reports"
+
+VEHICLE_MAKE = ""
+VEHICLE_MODEL = ""
+VEHICLE_YEAR = ""
+VEHICLE_ID = ""
 
 api_lock = threading.Lock()
 latest_api_data = {
@@ -32,7 +46,7 @@ RISK_RULES = [
     {'name': 'No turn signal while turning', 'check': lambda s: abs(s.get('Steering', 0)) > 10 and (s.get('Turn_State') == "Off"), 'level': 'Low'},
     {'name': 'High-speed swerving', 'check': lambda s: s.get('Speed', 0) > 80 and abs(s.get('Steering', 0)) > 20, 'level': 'High'},
     {'name': 'Hard acceleration', 'check': lambda s: s.get('Speed', 0) < 20 and s.get('Throttle', 0) > 85, 'level': 'Medium'},
-    {'name': 'Unsafe reverse speed', 'check': lambda s: s.get('Gear_Position') == 'Reverse' and s.get('Speed', 0) < -15, 'level': 'Medium'},
+    {'name': 'Unsafe reverse speed', 'check': lambda s: s.get('Gear_Position') == 'Reverse' and s.get('Speed', 0) < 15, 'level': 'Medium'},
     {'name': 'Late braking reaction (Distracted)', 'check': lambda s: s.get('Brake', 0) > 60 and s.get('head_direction') == 'LOST', 'level': 'High'},
     {'name': 'Unsignaled lane departure', 'check': lambda s: s.get('Speed', 0) > 60 and 5 < abs(s.get('Steering', 0)) < 15  and (s.get('Turn_State') == "Off"), 'level': 'Medium'},
 ]
@@ -62,8 +76,8 @@ def mqtt_setup():
     return client
 
 def publish_risk_event(mqtt_client, result):
-    mqtt_client.publish(TOPIC, json.dumps(result), qos=1)
-    print(f"[MQTT] Published risk payload: {result['Risk Level']}")
+    mqtt_client.publish(TOPIC, json.dumps(result, cls=CANEncoder), qos=1,)
+    print(f"[MQTT] Published risk payload: {result['severity']}")
 
 def cam_polling(hz=24):
     global latest_api_data
@@ -114,7 +128,7 @@ def evaluate_risk(temp_frame):
     #write raw signals file
     raw_signals_path = 'raw_decoded_signals.json'
     with open(raw_signals_path, 'w') as json_file:
-        json.dump(signals_combined , json_file, indent=4)
+        json.dump(signals_combined , json_file, indent=4, cls=CANEncoder)
 
     risks = []
     for rule in RISK_RULES:
@@ -133,48 +147,94 @@ def evaluate_risk(temp_frame):
         overall_risk = 'Low'
     else:
         overall_risk = 'Safe'
-
-    return {
-        "device_id":VEHICLE_ID,
-        "risk_types": ", ".join(r['behaviour'] for r in risks),
-        "location": {"lat": 43.6564398, "lon": -79.3767335},
-        "severity": overall_risk,
-        "timestamp": datetime.now(timezone.utc).isoformat(),
-        'additional_data': signals_combined,
-       
-    }
+    if len(risks) != 0:
+        return {
+            "device_id":VEHICLE_ID,
+            "vehicle_make": VEHICLE_MAKE,
+            "vehicle_model": VEHICLE_MODEL,
+            "vehicle_year": VEHICLE_YEAR,
+            "risk_types": ", ".join(r['behavior'] for r in risks),
+            "location": {"lat": 43.6564398, "lon": -79.3767335},
+            "severity": overall_risk,
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+        }
+    else: 
+        return {
+            "device_id":VEHICLE_ID,
+            "vehicle_make": VEHICLE_MAKE,
+            "vehicle_model": VEHICLE_MODEL,
+            "vehicle_year": VEHICLE_YEAR,
+            "risk_types": "No Risks",
+            "location": {"lat": 43.6564398, "lon": -79.3767335},
+            "severity": overall_risk,
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+        }
 
 def main():
+    running=True
+    if len(sys.argv) > 1:
+        try:
+            # sys.argv[1] is the JSON string we passed
+            raw_data = sys.argv[1]
+            config_data = json.loads(raw_data)
+            
+            VEHICLE_MAKE = config_data["vehicleMake"]
+            VEHICLE_MODEL = config_data["vehicleModel"]
+            VEHICLE_YEAR = config_data['vehicleYear']
+            VEHICLE_ID = config_data["vehicleId"]
+            
+            # Now you can use config_data throughout your telemetry logic
+            
+        except json.JSONDecodeError:
+            print("[ERROR] Failed to decode arguments.")
+    else:
+        VEHICLE_MAKE = "Nissan"
+        VEHICLE_MODEL = "Versa"
+        VEHICLE_YEAR = 2014
+        VEHICLE_ID = "default_vehicle_id"
+        print("[WARNING] No configuration data received.")
+
+    categorized_path = 'categorized_data.json'
     mqtt_client = mqtt_setup()
+    gpsd.connect()
     camera_thread = threading.Thread(target=cam_polling, daemon=True)
     camera_thread.start()
     reader = CANReader("dbc/nissan_versa_2014.dbc")
     temp_frame = {}  # holds full frame with ids 384, 644, 645, 658, 1549, 2, 1057, 1477
+    required_ids = [384, 644, 645, 658, 1549, 2, 1057, 1477]
+    # reduces analyzed frames => Checks every third frame currently
+    frame_counter = 0
     try: 
         with open(categorized_path, 'w') as json_file:  
-            while True:
+            while running:
+                packet = gpsd.get_current()
                 frame = reader.read()           
                 if frame:
+                    pos = packet.position()
                     frame_id = frame['id']
-                    signals = frame['signals']
-                    categorized_path = 'categorized_data.json'              
-                    if frame_id in [384, 644, 645, 658, 1549, 2, 1057, 1477]:
+                    signals = frame['signals']              
+                    if frame_id in required_ids:
                         temp_frame[frame_id] = signals
 
                     # Once we have all 8 messages, evaluate
-                    if all(k in temp_frame for k in [384, 644, 645, 658, 1549, 2, 1057, 1477]):
-                        result = evaluate_risk(temp_frame) 
-                        if result['Risk Level'] != 'Safe':
-                            publish_risk_event(mqtt_client, result)
-                        #writes latest frame to file 
-                        json.dump(result , json_file, indent=4)
-                        print(json.dumps(result, indent=4))
-                        temp_frame = {}  # reset for next frame
+                    if all(k in temp_frame for k in required_ids):
+                        frame_counter += 1
+                        if frame_counter >= 3:
+                            result = evaluate_risk(temp_frame) 
+                            if result['severity'] != 'Safe':
+                                result["location"] = {"lat": pos[0], "lon": pos[1]}
+                                publish_risk_event(mqtt_client, result)
+                            #writes latest frame to file 
+                            json.dump(result , json_file, indent=4, cls=CANEncoder)
+                            print(json.dumps(result, indent=4, cls=CANEncoder))
+                            temp_frame = {}  # reset for next frame
+                            frame_counter = 0
     except KeyboardInterrupt: 
         print("\n[SYSTEM] Shutting Down...")
     finally: 
         mqtt_client.loop_stop()
         mqtt_client.disconnect()
+        running=False
 
 if __name__ == "__main__":
     main()

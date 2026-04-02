@@ -4,8 +4,10 @@ __pycache__/
 *.pyo
 
 # Virtual environments
+
 .venv/
 venv/
+.env
 
 # Logs
 *.log
@@ -18,3 +20,6 @@ venv/
 
 # Editor
 .vscode/
+.venv/*
+can_log*
+dbc/_nissan_common.dbc
