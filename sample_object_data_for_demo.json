@@ -1,0 +1,327 @@
+[
+    {
+        "device_id": "",
+        "vehicle_make": "",
+        "vehicle_model": "",
+        "vehicle_year": "",
+        "risk_types": "No turn signal while turning",
+        "location": {
+            "lat": 43.6564398,
+            "lon": -79.3767335
+        },
+        "severity": "Low",
+        "timestamp": "2026-04-02T00:05:01.424324+00:00"
+    },
+    {
+        "device_id": "",
+        "vehicle_make": "",
+        "vehicle_model": "",
+        "vehicle_year": "",
+        "risk_types": "No turn signal while turning",
+        "location": {
+            "lat": 43.6564418,
+            "lon": -79.3767355
+        },
+        "severity": "Low",
+        "timestamp": "2026-04-02T00:05:01.525444+00:00"
+    },
+    {
+        "device_id": "",
+        "vehicle_make": "",
+        "vehicle_model": "",
+        "vehicle_year": "",
+        "risk_types": "No turn signal while turning",
+        "location": {
+            "lat": 43.6564438,
+            "lon": -79.3767375
+        },
+        "severity": "Low",
+        "timestamp": "2026-04-02T00:05:02.497112+00:00"
+    },
+    {
+        "device_id": "",
+        "vehicle_make": "",
+        "vehicle_model": "",
+        "vehicle_year": "",
+        "risk_types": "No turn signal while turning",
+        "location": {
+            "lat": 43.6564458,
+            "lon": -79.3767395
+        },
+        "severity": "Low",
+        "timestamp": "2026-04-02T00:05:02.643958+00:00"
+    },
+    {
+        "device_id": "",
+        "vehicle_make": "",
+        "vehicle_model": "",
+        "vehicle_year": "",
+        "risk_types": "No turn signal while turning",
+        "location": {
+            "lat": 43.6564478,
+            "lon": -79.3767415
+        },
+        "severity": "Low",
+        "timestamp": "2026-04-02T00:05:02.662761+00:00"
+    },
+    {
+        "device_id": "",
+        "vehicle_make": "",
+        "vehicle_model": "",
+        "vehicle_year": "",
+        "risk_types": "No turn signal while turning",
+        "location": {
+            "lat": 43.6564498,
+            "lon": -79.3767435
+        },
+        "severity": "Low",
+        "timestamp": "2026-04-02T00:05:02.723240+00:00"
+    },
+    {
+        "device_id": "",
+        "vehicle_make": "",
+        "vehicle_model": "",
+        "vehicle_year": "",
+        "risk_types": "No turn signal while turning",
+        "location": {
+            "lat": 43.6564518,
+            "lon": -79.3767455
+        },
+        "severity": "Low",
+        "timestamp": "2026-04-02T00:05:02.825160+00:00"
+    },
+    {
+        "device_id": "",
+        "vehicle_make": "",
+        "vehicle_model": "",
+        "vehicle_year": "",
+        "risk_types": "No turn signal while turning",
+        "location": {
+            "lat": 43.6564538,
+            "lon": -79.3767475
+        },
+        "severity": "Low",
+        "timestamp": "2026-04-02T00:05:03.775108+00:00"
+    },
+    {
+        "device_id": "",
+        "vehicle_make": "",
+        "vehicle_model": "",
+        "vehicle_year": "",
+        "risk_types": "No turn signal while turning",
+        "location": {
+            "lat": 43.6564558,
+            "lon": -79.3767495
+        },
+        "severity": "Low",
+        "timestamp": "2026-04-02T00:05:03.879945+00:00"
+    },
+    {
+        "device_id": "",
+        "vehicle_make": "",
+        "vehicle_model": "",
+        "vehicle_year": "",
+        "risk_types": "No turn signal while turning",
+        "location": {
+            "lat": 43.6564578,
+            "lon": -79.3767515
+        },
+        "severity": "Low",
+        "timestamp": "2026-04-02T00:05:03.899420+00:00"
+    },
+    {
+        "device_id": "",
+        "vehicle_make": "",
+        "vehicle_model": "",
+        "vehicle_year": "",
+        "risk_types": "No turn signal while turning",
+        "location": {
+            "lat": 43.6564598,
+            "lon": -79.3767535
+        },
+        "severity": "Low",
+        "timestamp": "2026-04-02T00:05:03.914485+00:00"
+    },
+    {
+        "device_id": "",
+        "vehicle_make": "",
+        "vehicle_model": "",
+        "vehicle_year": "",
+        "risk_types": "No turn signal while turning",
+        "location": {
+            "lat": 43.6564618,
+            "lon": -79.3767555
+        },
+        "severity": "Low",
+        "timestamp": "2026-04-02T00:05:04.055311+00:00"
+    },
+    {
+        "device_id": "",
+        "vehicle_make": "",
+        "vehicle_model": "",
+        "vehicle_year": "",
+        "risk_types": "No turn signal while turning",
+        "location": {
+            "lat": 43.6564638,
+            "lon": -79.3767575
+        },
+        "severity": "Low",
+        "timestamp": "2026-04-02T00:05:04.113008+00:00"
+    },
+    {
+        "device_id": "",
+        "vehicle_make": "",
+        "vehicle_model": "",
+        "vehicle_year": "",
+        "risk_types": "No turn signal while turning",
+        "location": {
+            "lat": 43.6564658,
+            "lon": -79.3767595
+        },
+        "severity": "Low",
+        "timestamp": "2026-04-02T00:05:04.212182+00:00"
+    },
+    {
+        "device_id": "",
+        "vehicle_make": "",
+        "vehicle_model": "",
+        "vehicle_year": "",
+        "risk_types": "No turn signal while turning",
+        "location": {
+            "lat": 43.6564678,
+            "lon": -79.3767615
+        },
+        "severity": "Low",
+        "timestamp": "2026-04-02T00:05:04.311360+00:00"
+    },
+    {
+        "device_id": "",
+        "vehicle_make": "",
+        "vehicle_model": "",
+        "vehicle_year": "",
+        "risk_types": "No turn signal while turning",
+        "location": {
+            "lat": 43.6564698,
+            "lon": -79.3767635
+        },
+        "severity": "Low",
+        "timestamp": "2026-04-02T00:05:04.412707+00:00"
+    },
+    {
+        "device_id": "",
+        "vehicle_make": "",
+        "vehicle_model": "",
+        "vehicle_year": "",
+        "risk_types": "No turn signal while turning",
+        "location": {
+            "lat": 43.6564718,
+            "lon": -79.3767655
+        },
+        "severity": "Low",
+        "timestamp": "2026-04-02T00:05:04.512331+00:00"
+    },
+    {
+        "device_id": "",
+        "vehicle_make": "",
+        "vehicle_model": "",
+        "vehicle_year": "",
+        "risk_types": "No turn signal while turning",
+        "location": {
+            "lat": 43.6564738,
+            "lon": -79.3767675
+        },
+        "severity": "Low",
+        "timestamp": "2026-04-02T00:05:04.633723+00:00"
+    },
+    {
+        "device_id": "",
+        "vehicle_make": "",
+        "vehicle_model": "",
+        "vehicle_year": "",
+        "risk_types": "No turn signal while turning",
+        "location": {
+            "lat": 43.6564758,
+            "lon": -79.3767695
+        },
+        "severity": "Low",
+        "timestamp": "2026-04-02T00:05:04.711309+00:00"
+    },
+    {
+        "device_id": "",
+        "vehicle_make": "",
+        "vehicle_model": "",
+        "vehicle_year": "",
+        "risk_types": "No turn signal while turning",
+        "location": {
+            "lat": 43.6564778,
+            "lon": -79.3767715
+        },
+        "severity": "Low",
+        "timestamp": "2026-04-02T00:05:04.812788+00:00"
+    },
+    {
+        "device_id": "",
+        "vehicle_make": "",
+        "vehicle_model": "",
+        "vehicle_year": "",
+        "risk_types": "No turn signal while turning",
+        "location": {
+            "lat": 43.6564798,
+            "lon": -79.3767735
+        },
+        "severity": "Low",
+        "timestamp": "2026-04-02T00:05:04.911518+00:00"
+    },
+    {
+        "device_id": "",
+        "vehicle_make": "",
+        "vehicle_model": "",
+        "vehicle_year": "",
+        "risk_types": "No turn signal while turning",
+        "location": {
+            "lat": 43.6564818,
+            "lon": -79.3767755
+        },
+        "severity": "Low",
+        "timestamp": "2026-04-02T00:05:05.011805+00:00"
+    },
+    {
+        "device_id": "",
+        "vehicle_make": "",
+        "vehicle_model": "",
+        "vehicle_year": "",
+        "risk_types": "No turn signal while turning",
+        "location": {
+            "lat": 43.6564838,
+            "lon": -79.3767775
+        },
+        "severity": "Low",
+        "timestamp": "2026-04-02T00:05:05.111475+00:00"
+    },
+    {
+        "device_id": "",
+        "vehicle_make": "",
+        "vehicle_model": "",
+        "vehicle_year": "",
+        "risk_types": "No turn signal while turning",
+        "location": {
+            "lat": 43.6564858,
+            "lon": -79.3767795
+        },
+        "severity": "Low",
+        "timestamp": "2026-04-02T00:05:05.227595+00:00"
+    },
+    {
+        "device_id": "",
+        "vehicle_make": "",
+        "vehicle_model": "",
+        "vehicle_year": "",
+        "risk_types": "No turn signal while turning",
+        "location": {
+            "lat": 43.6564878,
+            "lon": -79.3767815
+        },
+        "severity": "Low",
+        "timestamp": "2026-04-02T00:05:05.312527+00:00"
+    }
+]
