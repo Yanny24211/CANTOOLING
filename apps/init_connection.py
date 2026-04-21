@@ -32,6 +32,7 @@ payload = {
     }
 }
 
+
 client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)
 client.username_pw_set(USERNAME, PASSWORD)
 client.tls_set()
@@ -45,28 +46,28 @@ def on_message(client, userdata, msg):
         print(f"\n[INCOMING] Received on {msg.topic}:")
         print(json.dumps(data, indent=4))
     except Exception as e:
-        print(f"[ERROR] Could not parse message: {e}")
+        print(f"[RAS ERROR] Could not parse message: {e}")
 
 def on_connect(client, userdata, flags, reason_code, properties):
     if reason_code == 0:
-        print("[SYSTEM] Connected to broker")
+        print("[RAS] Connected to broker")
         
         # 2. Subscribe to the topic here
         # Subscribing inside on_connect ensures you resubscribe if the connection drops/reconnects
         client.subscribe(TOPIC)
-        print(f"[SYSTEM] Subscribed to {TOPIC}")
+        print(f"[RAS] Subscribed to {TOPIC}")
         
         # Publish your test payload
         client.publish(TOPIC, json.dumps(payload), qos=1)
-        print(f"[SYSTEM] Published test payload to {TOPIC}")
+        print(f"[RAS] Published test payload to {TOPIC}")
     else:
-        print(f"[ERROR] Connection failed with code {reason_code}")
+        print(f"[RAS ERROR] Connection failed with code {reason_code}")
 
 # 3. Assign the callback
 client.on_connect = on_connect
 client.on_message = on_message
 
-print("[SYSTEM] Initiating transmission sequence...")
+print("[RAS] Initiating transmission sequence...")
 client.connect(BROKER_HOST, BROKER_PORT, 60)
 
 client.loop_start()
@@ -74,4 +75,4 @@ client.loop_start()
 # Keep it alive long enough to see your own message come back
 time.sleep(1000000) 
 client.loop_stop()
-print("[SYSTEM] Sequence complete. Socket closed.")
+print("[RAS] Sequence complete. Socket closed.")

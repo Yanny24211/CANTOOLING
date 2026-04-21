@@ -823,27 +823,4 @@
     "1477": {
         "Handbrake_Active": "Off"
     }
-}{
-    "2": {
-        "Steering": -1.8,
-        "POWER_STEER_RATE": 0,
-        "COUNTER": 2
-    },
-    "384": {
-        "Throttle": 0.0
-    },
-    "1057": {
-        "Gear_Position": "Park"
-    },
-    "644": {
-        "Speed": 0.0
-    },
-    "645": {
-        "Speed_Rear": 0.0
-    },
-    "658": {
-        "Brake": 46
-    },
-    "1549": {
-        "Headlight_State": "On Second",
-        "Door_Driver"
+}
