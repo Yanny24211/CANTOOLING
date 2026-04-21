@@ -1,0 +1,849 @@
+{
+    "2": {
+        "Steering": -52.7,
+        "POWER_STEER_RATE": 4,
+        "COUNTER": 4
+    },
+    "1057": {
+        "Gear_Position": "Drive"
+    },
+    "384": {
+        "Throttle": 0.0
+    },
+    "644": {
+        "Speed": 2.845
+    },
+    "645": {
+        "Speed_Rear": 2.91
+    },
+    "658": {
+        "Brake": 36
+    },
+    "1549": {
+        "Headlight_State": "On Second",
+        "Door_Driver": "Closed",
+        "Door_Passenger": "Closed",
+        "Door_Rear_Left": "Closed",
+        "Door_Rear_Right": "Closed",
+        "High_Beams": "Off",
+        "Turn_State": "Off"
+    },
+    "1477": {
+        "Handbrake_Active": "Off"
+    }
+}{
+    "2": {
+        "Steering": -45.2,
+        "POWER_STEER_RATE": 3,
+        "COUNTER": 2
+    },
+    "1057": {
+        "Gear_Position": "Drive"
+    },
+    "384": {
+        "Throttle": 0.0
+    },
+    "644": {
+        "Speed": 1.495
+    },
+    "645": {
+        "Speed_Rear": 1.58
+    },
+    "658": {
+        "Brake": 41
+    },
+    "1549": {
+        "Headlight_State": "On Second",
+        "Door_Driver": "Closed",
+        "Door_Passenger": "Closed",
+        "Door_Rear_Left": "Closed",
+        "Door_Rear_Right": "Closed",
+        "High_Beams": "Off",
+        "Turn_State": "Off"
+    },
+    "1477": {
+        "Handbrake_Active": "Off"
+    }
+}{
+    "2": {
+        "Steering": -41.7,
+        "POWER_STEER_RATE": 0,
+        "COUNTER": 0
+    },
+    "1057": {
+        "Gear_Position": "Drive"
+    },
+    "384": {
+        "Throttle": 0.0
+    },
+    "644": {
+        "Speed": 0.0
+    },
+    "645": {
+        "Speed_Rear": 0.0
+    },
+    "658": {
+        "Brake": 42
+    },
+    "1549": {
+        "Headlight_State": "On Second",
+        "Door_Driver": "Closed",
+        "Door_Passenger": "Closed",
+        "Door_Rear_Left": "Closed",
+        "Door_Rear_Right": "Closed",
+        "High_Beams": "Off",
+        "Turn_State": "Off"
+    },
+    "1477": {
+        "Handbrake_Active": "Off"
+    }
+}{
+    "2": {
+        "Steering": -35.800000000000004,
+        "POWER_STEER_RATE": 21,
+        "COUNTER": 14
+    },
+    "1057": {
+        "Gear_Position": "Drive"
+    },
+    "384": {
+        "Throttle": 0.0
+    },
+    "644": {
+        "Speed": 0.0
+    },
+    "645": {
+        "Speed_Rear": 0.0
+    },
+    "658": {
+        "Brake": 42
+    },
+    "1549": {
+        "Headlight_State": "On Second",
+        "Door_Driver": "Closed",
+        "Door_Passenger": "Closed",
+        "Door_Rear_Left": "Closed",
+        "Door_Rear_Right": "Closed",
+        "High_Beams": "Off",
+        "Turn_State": "Off"
+    },
+    "1477": {
+        "Handbrake_Active": "Off"
+    }
+}{
+    "2": {
+        "Steering": 20.6,
+        "POWER_STEER_RATE": 83,
+        "COUNTER": 12
+    },
+    "1057": {
+        "Gear_Position": "Park"
+    },
+    "384": {
+        "Throttle": 0.0
+    },
+    "644": {
+        "Speed": 0.0
+    },
+    "645": {
+        "Speed_Rear": 0.0
+    },
+    "658": {
+        "Brake": 31
+    },
+    "1549": {
+        "Headlight_State": "On Second",
+        "Door_Driver": "Closed",
+        "Door_Passenger": "Closed",
+        "Door_Rear_Left": "Closed",
+        "Door_Rear_Right": "Closed",
+        "High_Beams": "Off",
+        "Turn_State": "Off"
+    },
+    "1477": {
+        "Handbrake_Active": "Off"
+    }
+}{
+    "384": {
+        "Throttle": 0.0
+    },
+    "2": {
+        "Steering": 57.800000000000004,
+        "POWER_STEER_RATE": 64,
+        "COUNTER": 10
+    },
+    "1057": {
+        "Gear_Position": "Park"
+    },
+    "644": {
+        "Speed": 0.0
+    },
+    "645": {
+        "Speed_Rear": 0.0
+    },
+    "658": {
+        "Brake": 20
+    },
+    "1549": {
+        "Headlight_State": "On Second",
+        "Door_Driver": "Closed",
+        "Door_Passenger": "Closed",
+        "Door_Rear_Left": "Closed",
+        "Door_Rear_Right": "Closed",
+        "High_Beams": "Off",
+        "Turn_State": "Off"
+    },
+    "1477": {
+        "Handbrake_Active": "Off"
+    }
+}{
+    "2": {
+        "Steering": -21.8,
+        "POWER_STEER_RATE": 2,
+        "COUNTER": 8
+    },
+    "1057": {
+        "Gear_Position": "Park"
+    },
+    "384": {
+        "Throttle": 0.0
+    },
+    "644": {
+        "Speed": 0.0
+    },
+    "645": {
+        "Speed_Rear": 0.0
+    },
+    "658": {
+        "Brake": 20
+    },
+    "1549": {
+        "Headlight_State": "On Second",
+        "Door_Driver": "Closed",
+        "Door_Passenger": "Closed",
+        "Door_Rear_Left": "Closed",
+        "Door_Rear_Right": "Closed",
+        "High_Beams": "Off",
+        "Turn_State": "Off"
+    },
+    "1477": {
+        "Handbrake_Active": "Off"
+    }
+}{
+    "2": {
+        "Steering": -0.6000000000000001,
+        "POWER_STEER_RATE": 5,
+        "COUNTER": 6
+    },
+    "1057": {
+        "Gear_Position": "Park"
+    },
+    "384": {
+        "Throttle": 0.0
+    },
+    "644": {
+        "Speed": 0.0
+    },
+    "645": {
+        "Speed_Rear": 0.0
+    },
+    "658": {
+        "Brake": 20
+    },
+    "1549": {
+        "Headlight_State": "On Second",
+        "Door_Driver": "Closed",
+        "Door_Passenger": "Closed",
+        "Door_Rear_Left": "Closed",
+        "Door_Rear_Right": "Closed",
+        "High_Beams": "Off",
+        "Turn_State": "Off"
+    },
+    "1477": {
+        "Handbrake_Active": "Off"
+    }
+}{
+    "2": {
+        "Steering": -1.8,
+        "POWER_STEER_RATE": 0,
+        "COUNTER": 4
+    },
+    "384": {
+        "Throttle": 0.0
+    },
+    "1057": {
+        "Gear_Position": "Park"
+    },
+    "644": {
+        "Speed": 0.0
+    },
+    "645": {
+        "Speed_Rear": 0.0
+    },
+    "658": {
+        "Brake": 20
+    },
+    "1549": {
+        "Headlight_State": "On Second",
+        "Door_Driver": "Closed",
+        "Door_Passenger": "Closed",
+        "Door_Rear_Left": "Closed",
+        "Door_Rear_Right": "Closed",
+        "High_Beams": "Off",
+        "Turn_State": "Off"
+    },
+    "1477": {
+        "Handbrake_Active": "Off"
+    }
+}{
+    "2": {
+        "Steering": -1.8,
+        "POWER_STEER_RATE": 0,
+        "COUNTER": 2
+    },
+    "1057": {
+        "Gear_Position": "Park"
+    },
+    "384": {
+        "Throttle": 0.0
+    },
+    "644": {
+        "Speed": 0.0
+    },
+    "645": {
+        "Speed_Rear": 0.0
+    },
+    "658": {
+        "Brake": 20
+    },
+    "1549": {
+        "Headlight_State": "On Second",
+        "Door_Driver": "Closed",
+        "Door_Passenger": "Closed",
+        "Door_Rear_Left": "Closed",
+        "Door_Rear_Right": "Closed",
+        "High_Beams": "Off",
+        "Turn_State": "Off"
+    },
+    "1477": {
+        "Handbrake_Active": "Off"
+    }
+}{
+    "2": {
+        "Steering": -1.8,
+        "POWER_STEER_RATE": 1,
+        "COUNTER": 0
+    },
+    "1057": {
+        "Gear_Position": "Park"
+    },
+    "384": {
+        "Throttle": 0.0
+    },
+    "644": {
+        "Speed": 0.0
+    },
+    "645": {
+        "Speed_Rear": 0.0
+    },
+    "658": {
+        "Brake": 20
+    },
+    "1549": {
+        "Headlight_State": "On Second",
+        "Door_Driver": "Closed",
+        "Door_Passenger": "Closed",
+        "Door_Rear_Left": "Closed",
+        "Door_Rear_Right": "Closed",
+        "High_Beams": "Off",
+        "Turn_State": "Off"
+    },
+    "1477": {
+        "Handbrake_Active": "Off"
+    }
+}{
+    "2": {
+        "Steering": -1.8,
+        "POWER_STEER_RATE": 0,
+        "COUNTER": 14
+    },
+    "1057": {
+        "Gear_Position": "Park"
+    },
+    "384": {
+        "Throttle": 0.0
+    },
+    "644": {
+        "Speed": 0.0
+    },
+    "645": {
+        "Speed_Rear": 0.0
+    },
+    "658": {
+        "Brake": 20
+    },
+    "1549": {
+        "Headlight_State": "On Second",
+        "Door_Driver": "Closed",
+        "Door_Passenger": "Closed",
+        "Door_Rear_Left": "Closed",
+        "Door_Rear_Right": "Closed",
+        "High_Beams": "Off",
+        "Turn_State": "Off"
+    },
+    "1477": {
+        "Handbrake_Active": "Off"
+    }
+}{
+    "384": {
+        "Throttle": 0.0
+    },
+    "2": {
+        "Steering": -1.8,
+        "POWER_STEER_RATE": 0,
+        "COUNTER": 12
+    },
+    "1057": {
+        "Gear_Position": "Park"
+    },
+    "644": {
+        "Speed": 0.0
+    },
+    "645": {
+        "Speed_Rear": 0.0
+    },
+    "658": {
+        "Brake": 20
+    },
+    "1549": {
+        "Headlight_State": "On Second",
+        "Door_Driver": "Closed",
+        "Door_Passenger": "Closed",
+        "Door_Rear_Left": "Closed",
+        "Door_Rear_Right": "Closed",
+        "High_Beams": "Off",
+        "Turn_State": "Off"
+    },
+    "1477": {
+        "Handbrake_Active": "Off"
+    }
+}{
+    "2": {
+        "Steering": -1.8,
+        "POWER_STEER_RATE": 0,
+        "COUNTER": 10
+    },
+    "1057": {
+        "Gear_Position": "Park"
+    },
+    "384": {
+        "Throttle": 0.0
+    },
+    "644": {
+        "Speed": 0.0
+    },
+    "645": {
+        "Speed_Rear": 0.0
+    },
+    "658": {
+        "Brake": 20
+    },
+    "1549": {
+        "Headlight_State": "On Second",
+        "Door_Driver": "Closed",
+        "Door_Passenger": "Closed",
+        "Door_Rear_Left": "Closed",
+        "Door_Rear_Right": "Closed",
+        "High_Beams": "Off",
+        "Turn_State": "Off"
+    },
+    "1477": {
+        "Handbrake_Active": "Off"
+    }
+}{
+    "2": {
+        "Steering": -1.8,
+        "POWER_STEER_RATE": 0,
+        "COUNTER": 8
+    },
+    "1057": {
+        "Gear_Position": "Park"
+    },
+    "384": {
+        "Throttle": 0.0
+    },
+    "644": {
+        "Speed": 0.0
+    },
+    "645": {
+        "Speed_Rear": 0.0
+    },
+    "658": {
+        "Brake": 20
+    },
+    "1549": {
+        "Headlight_State": "On Second",
+        "Door_Driver": "Closed",
+        "Door_Passenger": "Closed",
+        "Door_Rear_Left": "Closed",
+        "Door_Rear_Right": "Closed",
+        "High_Beams": "Off",
+        "Turn_State": "Off"
+    },
+    "1477": {
+        "Handbrake_Active": "Off"
+    }
+}{
+    "2": {
+        "Steering": -1.8,
+        "POWER_STEER_RATE": 0,
+        "COUNTER": 6
+    },
+    "384": {
+        "Throttle": 0.0
+    },
+    "1057": {
+        "Gear_Position": "Park"
+    },
+    "644": {
+        "Speed": 0.0
+    },
+    "645": {
+        "Speed_Rear": 0.0
+    },
+    "658": {
+        "Brake": 20
+    },
+    "1549": {
+        "Headlight_State": "On Second",
+        "Door_Driver": "Closed",
+        "Door_Passenger": "Closed",
+        "Door_Rear_Left": "Closed",
+        "Door_Rear_Right": "Closed",
+        "High_Beams": "Off",
+        "Turn_State": "Off"
+    },
+    "1477": {
+        "Handbrake_Active": "Off"
+    }
+}{
+    "2": {
+        "Steering": -1.8,
+        "POWER_STEER_RATE": 0,
+        "COUNTER": 4
+    },
+    "1057": {
+        "Gear_Position": "Park"
+    },
+    "384": {
+        "Throttle": 0.0
+    },
+    "644": {
+        "Speed": 0.0
+    },
+    "645": {
+        "Speed_Rear": 0.0
+    },
+    "658": {
+        "Brake": 20
+    },
+    "1549": {
+        "Headlight_State": "On Second",
+        "Door_Driver": "Closed",
+        "Door_Passenger": "Closed",
+        "Door_Rear_Left": "Closed",
+        "Door_Rear_Right": "Closed",
+        "High_Beams": "Off",
+        "Turn_State": "Off"
+    },
+    "1477": {
+        "Handbrake_Active": "Off"
+    }
+}{
+    "2": {
+        "Steering": -1.8,
+        "POWER_STEER_RATE": 0,
+        "COUNTER": 2
+    },
+    "1057": {
+        "Gear_Position": "Park"
+    },
+    "384": {
+        "Throttle": 0.0
+    },
+    "644": {
+        "Speed": 0.0
+    },
+    "645": {
+        "Speed_Rear": 0.0
+    },
+    "658": {
+        "Brake": 20
+    },
+    "1549": {
+        "Headlight_State": "On Second",
+        "Door_Driver": "Closed",
+        "Door_Passenger": "Closed",
+        "Door_Rear_Left": "Closed",
+        "Door_Rear_Right": "Closed",
+        "High_Beams": "Off",
+        "Turn_State": "Off"
+    },
+    "1477": {
+        "Handbrake_Active": "Off"
+    }
+}{
+    "2": {
+        "Steering": -1.8,
+        "POWER_STEER_RATE": 0,
+        "COUNTER": 0
+    },
+    "384": {
+        "Throttle": 0.0
+    },
+    "1057": {
+        "Gear_Position": "Park"
+    },
+    "644": {
+        "Speed": 0.0
+    },
+    "645": {
+        "Speed_Rear": 0.0
+    },
+    "658": {
+        "Brake": 20
+    },
+    "1549": {
+        "Headlight_State": "On Second",
+        "Door_Driver": "Closed",
+        "Door_Passenger": "Closed",
+        "Door_Rear_Left": "Closed",
+        "Door_Rear_Right": "Closed",
+        "High_Beams": "Off",
+        "Turn_State": "Off"
+    },
+    "1477": {
+        "Handbrake_Active": "Off"
+    }
+}{
+    "2": {
+        "Steering": -1.8,
+        "POWER_STEER_RATE": 0,
+        "COUNTER": 14
+    },
+    "1057": {
+        "Gear_Position": "Park"
+    },
+    "384": {
+        "Throttle": 0.0
+    },
+    "644": {
+        "Speed": 0.0
+    },
+    "645": {
+        "Speed_Rear": 0.0
+    },
+    "658": {
+        "Brake": 20
+    },
+    "1549": {
+        "Headlight_State": "On Second",
+        "Door_Driver": "Closed",
+        "Door_Passenger": "Closed",
+        "Door_Rear_Left": "Closed",
+        "Door_Rear_Right": "Closed",
+        "High_Beams": "Off",
+        "Turn_State": "Off"
+    },
+    "1477": {
+        "Handbrake_Active": "Off"
+    }
+}{
+    "2": {
+        "Steering": -1.8,
+        "POWER_STEER_RATE": 0,
+        "COUNTER": 12
+    },
+    "1057": {
+        "Gear_Position": "Park"
+    },
+    "384": {
+        "Throttle": 0.0
+    },
+    "644": {
+        "Speed": 0.0
+    },
+    "645": {
+        "Speed_Rear": 0.0
+    },
+    "658": {
+        "Brake": 20
+    },
+    "1549": {
+        "Headlight_State": "On Second",
+        "Door_Driver": "Closed",
+        "Door_Passenger": "Closed",
+        "Door_Rear_Left": "Closed",
+        "Door_Rear_Right": "Closed",
+        "High_Beams": "Off",
+        "Turn_State": "Off"
+    },
+    "1477": {
+        "Handbrake_Active": "Off"
+    }
+}{
+    "2": {
+        "Steering": -1.8,
+        "POWER_STEER_RATE": 0,
+        "COUNTER": 10
+    },
+    "1057": {
+        "Gear_Position": "Park"
+    },
+    "384": {
+        "Throttle": 0.0
+    },
+    "644": {
+        "Speed": 0.0
+    },
+    "645": {
+        "Speed_Rear": 0.0
+    },
+    "658": {
+        "Brake": 20
+    },
+    "1549": {
+        "Headlight_State": "On Second",
+        "Door_Driver": "Closed",
+        "Door_Passenger": "Closed",
+        "Door_Rear_Left": "Closed",
+        "Door_Rear_Right": "Closed",
+        "High_Beams": "Off",
+        "Turn_State": "Off"
+    },
+    "1477": {
+        "Handbrake_Active": "Off"
+    }
+}{
+    "2": {
+        "Steering": -1.8,
+        "POWER_STEER_RATE": 0,
+        "COUNTER": 8
+    },
+    "384": {
+        "Throttle": 0.0
+    },
+    "1057": {
+        "Gear_Position": "Park"
+    },
+    "644": {
+        "Speed": 0.0
+    },
+    "645": {
+        "Speed_Rear": 0.0
+    },
+    "658": {
+        "Brake": 20
+    },
+    "1549": {
+        "Headlight_State": "On Second",
+        "Door_Driver": "Closed",
+        "Door_Passenger": "Closed",
+        "Door_Rear_Left": "Closed",
+        "Door_Rear_Right": "Closed",
+        "High_Beams": "Off",
+        "Turn_State": "Off"
+    },
+    "1477": {
+        "Handbrake_Active": "Off"
+    }
+}{
+    "2": {
+        "Steering": -1.8,
+        "POWER_STEER_RATE": 0,
+        "COUNTER": 6
+    },
+    "1057": {
+        "Gear_Position": "Park"
+    },
+    "384": {
+        "Throttle": 0.0
+    },
+    "644": {
+        "Speed": 0.0
+    },
+    "645": {
+        "Speed_Rear": 0.0
+    },
+    "658": {
+        "Brake": 20
+    },
+    "1549": {
+        "Headlight_State": "On Second",
+        "Door_Driver": "Closed",
+        "Door_Passenger": "Closed",
+        "Door_Rear_Left": "Closed",
+        "Door_Rear_Right": "Closed",
+        "High_Beams": "Off",
+        "Turn_State": "Off"
+    },
+    "1477": {
+        "Handbrake_Active": "Off"
+    }
+}{
+    "2": {
+        "Steering": -1.8,
+        "POWER_STEER_RATE": 0,
+        "COUNTER": 4
+    },
+    "1057": {
+        "Gear_Position": "Park"
+    },
+    "384": {
+        "Throttle": 0.0
+    },
+    "644": {
+        "Speed": 0.0
+    },
+    "645": {
+        "Speed_Rear": 0.0
+    },
+    "658": {
+        "Brake": 22
+    },
+    "1549": {
+        "Headlight_State": "On Second",
+        "Door_Driver": "Closed",
+        "Door_Passenger": "Closed",
+        "Door_Rear_Left": "Closed",
+        "Door_Rear_Right": "Closed",
+        "High_Beams": "Off",
+        "Turn_State": "Off"
+    },
+    "1477": {
+        "Handbrake_Active": "Off"
+    }
+}{
+    "2": {
+        "Steering": -1.8,
+        "POWER_STEER_RATE": 0,
+        "COUNTER": 2
+    },
+    "384": {
+        "Throttle": 0.0
+    },
+    "1057": {
+        "Gear_Position": "Park"
+    },
+    "644": {
+        "Speed": 0.0
+    },
+    "645": {
+        "Speed_Rear": 0.0
+    },
+    "658": {
+        "Brake": 46
+    },
+    "1549": {
+        "Headlight_State": "On Second",
+        "Door_Driver"
