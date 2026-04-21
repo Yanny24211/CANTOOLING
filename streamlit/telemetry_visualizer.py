@@ -5,6 +5,7 @@ import json
 import os
 import re
 from PIL import Image
+from pathlib import Path
 import warnings
 
 warnings.filterwarnings("ignore", category=DeprecationWarning)
@@ -68,10 +69,12 @@ def main():
     st.divider()
 
     st.sidebar.title("Settings")
+    SCRIPT_DIR = Path(__file__).parent
+    BASE_DIR = SCRIPT_DIR.parent
     paths = {
-        "DE": r"C:\Users\deeps\Desktop\Deep Y4S2 Folders\COE70B\driver_cantooling_module\CANTOOLING\raw_decoded_signals.json",
-        "90": r"C:\Users\deeps\Desktop\Deep Y4S2 Folders\COE70B\driver_cantooling_module\CANTOOLING\raw_decoded_signals90.json",
-        "91": r"C:\Users\deeps\Desktop\Deep Y4S2 Folders\COE70B\driver_cantooling_module\CANTOOLING\raw_decoded_signals91.json"
+        "DE": str(BASE_DIR / "raw_decoded_signals.json"),
+        "90": str(BASE_DIR / "raw_decoded_signals90.json"),
+        "91": str(BASE_DIR / "raw_decoded_signals91.json")
     }
 
     st.sidebar.subheader("Select Dataset")
