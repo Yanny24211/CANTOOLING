@@ -11,7 +11,7 @@
         "Speed_Rear": 17.46
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "384": {
         "Throttle": 15.0
@@ -47,7 +47,7 @@
         "Speed_Rear": 19.185
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -80,7 +80,7 @@
         "Speed_Rear": 20.725
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -110,7 +110,7 @@
         "Speed_Rear": 22.32
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "384": {
         "Throttle": 15.0
@@ -146,7 +146,7 @@
         "Speed_Rear": 23.85
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -179,7 +179,7 @@
         "Speed_Rear": 25.405
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -212,7 +212,7 @@
         "Speed_Rear": 26.745
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -242,7 +242,7 @@
         "Speed_Rear": 28.22
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "384": {
         "Throttle": 15.0
@@ -278,7 +278,7 @@
         "Speed_Rear": 29.535
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -311,7 +311,7 @@
         "Speed_Rear": 30.66
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -344,7 +344,7 @@
         "Speed_Rear": 31.625
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -377,7 +377,7 @@
         "Speed_Rear": 32.555
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -410,7 +410,7 @@
         "Speed_Rear": 33.465
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -443,7 +443,7 @@
         "Speed_Rear": 34.15
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -476,7 +476,7 @@
         "Speed_Rear": 34.975
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -509,7 +509,7 @@
         "Speed_Rear": 35.845
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -542,7 +542,7 @@
         "Speed_Rear": 36.595
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -575,7 +575,7 @@
         "Speed_Rear": 37.395
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -608,7 +608,7 @@
         "Speed_Rear": 38.295
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -641,7 +641,7 @@
         "Speed_Rear": 39.14
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -674,7 +674,7 @@
         "Speed_Rear": 39.835
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -707,7 +707,7 @@
         "Speed_Rear": 40.115
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -740,7 +740,7 @@
         "Speed_Rear": 39.805
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -773,7 +773,7 @@
         "Speed_Rear": 39.89
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -806,7 +806,7 @@
         "Speed_Rear": 40.0
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -839,7 +839,7 @@
         "Speed_Rear": 39.88
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -872,7 +872,7 @@
         "Speed_Rear": 40.06
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -905,7 +905,7 @@
         "Speed_Rear": 40.35
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -938,7 +938,7 @@
         "Speed_Rear": 40.36
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -971,7 +971,7 @@
         "Speed_Rear": 40.37
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -1004,7 +1004,7 @@
         "Speed_Rear": 40.575
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -1037,7 +1037,7 @@
         "Speed_Rear": 40.64
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -1070,7 +1070,7 @@
         "Speed_Rear": 40.745
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -1103,7 +1103,7 @@
         "Speed_Rear": 40.885
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -1133,7 +1133,7 @@
         "Speed_Rear": 40.76
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "384": {
         "Throttle": 0.0
@@ -1169,7 +1169,7 @@
         "Speed_Rear": 40.685
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -1199,7 +1199,7 @@
         "Speed_Rear": 40.685
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "384": {
         "Throttle": 0.0
@@ -1232,7 +1232,7 @@
         "Speed_Rear": 40.745
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "384": {
         "Throttle": 0.0
@@ -1268,7 +1268,7 @@
         "Throttle": 0.0
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -1301,7 +1301,7 @@
         "Speed_Rear": 40.415
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -1331,7 +1331,7 @@
         "Speed_Rear": 40.36
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "384": {
         "Throttle": 0.0
@@ -1364,7 +1364,7 @@
         "Speed_Rear": 40.31
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "384": {
         "Throttle": 0.0
@@ -1400,7 +1400,7 @@
         "Speed_Rear": 40.125
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -1433,7 +1433,7 @@
         "Speed_Rear": 40.105000000000004
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -2291,7 +2291,7 @@
         "Speed_Rear": 2.685
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -2324,7 +2324,7 @@
         "Speed_Rear": 2.7600000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -2357,7 +2357,7 @@
         "Speed_Rear": 2.965
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -2390,7 +2390,7 @@
         "Speed_Rear": 3.295
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -2423,7 +2423,7 @@
         "Speed_Rear": 4.335
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -2456,7 +2456,7 @@
         "Speed_Rear": 5.65
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -2489,7 +2489,7 @@
         "Speed_Rear": 6.68
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -2522,7 +2522,7 @@
         "Speed_Rear": 7.655
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -2555,7 +2555,7 @@
         "Speed_Rear": 9.46
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -2588,7 +2588,7 @@
         "Speed_Rear": 11.765
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -2621,7 +2621,7 @@
         "Speed_Rear": 13.96
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -2654,7 +2654,7 @@
         "Speed_Rear": 16.080000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -2687,7 +2687,7 @@
         "Speed_Rear": 18.07
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -2720,7 +2720,7 @@
         "Speed_Rear": 19.785
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -2753,7 +2753,7 @@
         "Speed_Rear": 21.615000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -2786,7 +2786,7 @@
         "Speed_Rear": 23.145
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -2819,7 +2819,7 @@
         "Speed_Rear": 24.485
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -2852,7 +2852,7 @@
         "Speed_Rear": 25.895
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -2885,7 +2885,7 @@
         "Speed_Rear": 27.215
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -2918,7 +2918,7 @@
         "Speed_Rear": 28.54
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -2951,7 +2951,7 @@
         "Speed_Rear": 30.02
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -2984,7 +2984,7 @@
         "Speed_Rear": 30.96
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -3017,7 +3017,7 @@
         "Speed_Rear": 32.095
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -3050,7 +3050,7 @@
         "Speed_Rear": 32.92
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -3083,7 +3083,7 @@
         "Speed_Rear": 33.96
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -3116,7 +3116,7 @@
         "Speed_Rear": 34.925000000000004
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -3149,7 +3149,7 @@
         "Speed_Rear": 35.82
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -3182,7 +3182,7 @@
         "Speed_Rear": 36.495
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -3215,7 +3215,7 @@
         "Speed_Rear": 37.02
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -3248,7 +3248,7 @@
         "Speed_Rear": 38.35
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -3284,7 +3284,7 @@
         "Speed_Rear": 39.235
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -3317,7 +3317,7 @@
         "Speed_Rear": 40.03
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -3350,7 +3350,7 @@
         "Speed_Rear": 40.405
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -3383,7 +3383,7 @@
         "Speed_Rear": 40.61
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -3416,7 +3416,7 @@
         "Speed_Rear": 40.985
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -3449,7 +3449,7 @@
         "Speed_Rear": 40.96
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -3479,7 +3479,7 @@
         "Speed_Rear": 41.39
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -3515,7 +3515,7 @@
         "Speed_Rear": 41.475
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -3548,7 +3548,7 @@
         "Speed_Rear": 41.775
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -3581,7 +3581,7 @@
         "Speed_Rear": 42.32
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -3614,7 +3614,7 @@
         "Speed_Rear": 43.175000000000004
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -3647,7 +3647,7 @@
         "Speed_Rear": 43.04
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -3680,7 +3680,7 @@
         "Speed_Rear": 43.315
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -3713,7 +3713,7 @@
         "Speed_Rear": 43.905
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -3746,7 +3746,7 @@
         "Speed_Rear": 43.875
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -3779,7 +3779,7 @@
         "Speed_Rear": 44.44
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -3812,7 +3812,7 @@
         "Speed_Rear": 44.835
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -3845,7 +3845,7 @@
         "Speed_Rear": 45.160000000000004
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -3878,7 +3878,7 @@
         "Speed_Rear": 45.37
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -3911,7 +3911,7 @@
         "Speed_Rear": 45.135
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -3944,7 +3944,7 @@
         "Speed_Rear": 45.435
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -3977,7 +3977,7 @@
         "Speed_Rear": 46.25
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4010,7 +4010,7 @@
         "Speed_Rear": 45.65
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4043,7 +4043,7 @@
         "Speed_Rear": 45.875
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4076,7 +4076,7 @@
         "Speed_Rear": 46.295
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4109,7 +4109,7 @@
         "Speed_Rear": 46.56
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4142,7 +4142,7 @@
         "Speed_Rear": 46.52
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4175,7 +4175,7 @@
         "Speed_Rear": 46.25
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4208,7 +4208,7 @@
         "Speed_Rear": 46.85
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4241,7 +4241,7 @@
         "Speed_Rear": 47.44
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4274,7 +4274,7 @@
         "Speed_Rear": 47.225
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4307,7 +4307,7 @@
         "Speed_Rear": 47.29
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4340,7 +4340,7 @@
         "Speed_Rear": 46.925000000000004
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4373,7 +4373,7 @@
         "Speed_Rear": 47.085
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4406,7 +4406,7 @@
         "Speed_Rear": 47.215
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4439,7 +4439,7 @@
         "Speed_Rear": 47.03
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4472,7 +4472,7 @@
         "Speed_Rear": 46.905
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4505,7 +4505,7 @@
         "Speed_Rear": 46.87
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4538,7 +4538,7 @@
         "Speed_Rear": 46.615
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4571,7 +4571,7 @@
         "Speed_Rear": 47.34
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4604,7 +4604,7 @@
         "Speed_Rear": 47.45
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4637,7 +4637,7 @@
         "Speed_Rear": 47.64
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4670,7 +4670,7 @@
         "Speed_Rear": 47.730000000000004
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4703,7 +4703,7 @@
         "Speed_Rear": 47.825
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4736,7 +4736,7 @@
         "Speed_Rear": 47.995000000000005
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4769,7 +4769,7 @@
         "Speed_Rear": 48.1
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4802,7 +4802,7 @@
         "Speed_Rear": 48.38
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4835,7 +4835,7 @@
         "Speed_Rear": 48.595
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4868,7 +4868,7 @@
         "Speed_Rear": 48.82
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4901,7 +4901,7 @@
         "Speed_Rear": 48.765
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4934,7 +4934,7 @@
         "Speed_Rear": 48.765
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -4967,7 +4967,7 @@
         "Speed_Rear": 48.925000000000004
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -5000,7 +5000,7 @@
         "Speed_Rear": 49.160000000000004
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -5033,7 +5033,7 @@
         "Speed_Rear": 49.11
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -5066,7 +5066,7 @@
         "Speed_Rear": 49.42
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -5099,7 +5099,7 @@
         "Speed_Rear": 49.11
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -5132,7 +5132,7 @@
         "Speed_Rear": 49.195
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -5165,7 +5165,7 @@
         "Speed_Rear": 48.95
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -5198,7 +5198,7 @@
         "Speed_Rear": 48.615
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -5231,7 +5231,7 @@
         "Speed_Rear": 48.1
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -5264,7 +5264,7 @@
         "Speed_Rear": 47.535000000000004
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -5297,7 +5297,7 @@
         "Speed_Rear": 47.29
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -5330,7 +5330,7 @@
         "Speed_Rear": 46.895
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -5363,7 +5363,7 @@
         "Speed_Rear": 47.17
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -5396,7 +5396,7 @@
         "Speed_Rear": 46.99
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -5429,7 +5429,7 @@
         "Speed_Rear": 47.15
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -5462,7 +5462,7 @@
         "Speed_Rear": 47.085
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -5495,7 +5495,7 @@
         "Speed_Rear": 46.87
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -5528,7 +5528,7 @@
         "Speed_Rear": 46.7
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -5561,7 +5561,7 @@
         "Speed_Rear": 46.315
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -5594,7 +5594,7 @@
         "Speed_Rear": 45.97
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -5627,7 +5627,7 @@
         "Speed_Rear": 45.78
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -5660,7 +5660,7 @@
         "Speed_Rear": 45.125
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -5693,7 +5693,7 @@
         "Speed_Rear": 44.685
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -5726,7 +5726,7 @@
         "Speed_Rear": 44.13
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -5759,7 +5759,7 @@
         "Speed_Rear": 43.755
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -5792,7 +5792,7 @@
         "Speed_Rear": 43.52
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -6485,7 +6485,7 @@
         "Speed_Rear": 1.7750000000000001
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -6518,7 +6518,7 @@
         "Speed_Rear": 1.82
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -6551,7 +6551,7 @@
         "Speed_Rear": 2.065
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -6584,7 +6584,7 @@
         "Speed_Rear": 2.375
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -6617,7 +6617,7 @@
         "Speed_Rear": 3.22
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -6650,7 +6650,7 @@
         "Speed_Rear": 4.195
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -6683,7 +6683,7 @@
         "Speed_Rear": 4.985
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -6716,7 +6716,7 @@
         "Speed_Rear": 6.11
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -6749,7 +6749,7 @@
         "Speed_Rear": 8.09
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -6782,7 +6782,7 @@
         "Speed_Rear": 10.32
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -6815,7 +6815,7 @@
         "Speed_Rear": 12.15
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -6848,7 +6848,7 @@
         "Speed_Rear": 14.01
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -6881,7 +6881,7 @@
         "Speed_Rear": 15.81
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -6914,7 +6914,7 @@
         "Speed_Rear": 17.48
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -6947,7 +6947,7 @@
         "Speed_Rear": 19.055
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -6980,7 +6980,7 @@
         "Speed_Rear": 20.34
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -7013,7 +7013,7 @@
         "Speed_Rear": 21.830000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -7046,7 +7046,7 @@
         "Speed_Rear": 23.025000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -7079,7 +7079,7 @@
         "Speed_Rear": 24.86
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -7112,7 +7112,7 @@
         "Speed_Rear": 26.185000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -7145,7 +7145,7 @@
         "Speed_Rear": 27.330000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -7178,7 +7178,7 @@
         "Speed_Rear": 28.55
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -7211,7 +7211,7 @@
         "Speed_Rear": 29.685000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -7244,7 +7244,7 @@
         "Speed_Rear": 30.715
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -7277,7 +7277,7 @@
         "Speed_Rear": 31.7
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -7310,7 +7310,7 @@
         "Speed_Rear": 32.63
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -7343,7 +7343,7 @@
         "Speed_Rear": 33.55
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -7376,7 +7376,7 @@
         "Speed_Rear": 34.235
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -7409,7 +7409,7 @@
         "Speed_Rear": 35.425000000000004
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -7442,7 +7442,7 @@
         "Speed_Rear": 36.24
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -7484,7 +7484,7 @@
         "Speed_Rear": 37.47
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -7517,7 +7517,7 @@
         "Speed_Rear": 37.985
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -7550,7 +7550,7 @@
         "Speed_Rear": 38.905
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -7583,7 +7583,7 @@
         "Speed_Rear": 39.375
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -7616,7 +7616,7 @@
         "Speed_Rear": 40.565
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -7649,7 +7649,7 @@
         "Speed_Rear": 41.11
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -7682,7 +7682,7 @@
         "Speed_Rear": 41.72
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -7715,7 +7715,7 @@
         "Speed_Rear": 42.385
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -7748,7 +7748,7 @@
         "Speed_Rear": 42.59
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -7781,7 +7781,7 @@
         "Speed_Rear": 43.465
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -7814,7 +7814,7 @@
         "Speed_Rear": 43.550000000000004
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -7847,7 +7847,7 @@
         "Speed_Rear": 43.755
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -7880,7 +7880,7 @@
         "Speed_Rear": 44.025
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -7913,7 +7913,7 @@
         "Speed_Rear": 44.515
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -7946,7 +7946,7 @@
         "Speed_Rear": 45.135
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -7979,7 +7979,7 @@
         "Speed_Rear": 45.545
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -8012,7 +8012,7 @@
         "Speed_Rear": 46.12
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -8045,7 +8045,7 @@
         "Speed_Rear": 46.88
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -8078,7 +8078,7 @@
         "Speed_Rear": 46.945
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -8111,7 +8111,7 @@
         "Speed_Rear": 47.0
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -8144,7 +8144,7 @@
         "Speed_Rear": 47.29
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -8177,7 +8177,7 @@
         "Speed_Rear": 47.385
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -8210,7 +8210,7 @@
         "Speed_Rear": 47.480000000000004
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -8243,7 +8243,7 @@
         "Speed_Rear": 47.63
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -8276,7 +8276,7 @@
         "Speed_Rear": 47.730000000000004
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -8309,7 +8309,7 @@
         "Speed_Rear": 47.665
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -8342,7 +8342,7 @@
         "Speed_Rear": 47.515
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -8375,7 +8375,7 @@
         "Speed_Rear": 47.64
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -8408,7 +8408,7 @@
         "Speed_Rear": 47.62
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -8432,7 +8432,7 @@
         "Speed_Rear": 47.64
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1477": {
         "Handbrake_Active": "Off"
@@ -8465,7 +8465,7 @@
         "Speed_Rear": 47.46
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -8498,7 +8498,7 @@
         "Speed_Rear": 47.61
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -8528,7 +8528,7 @@
         "Speed_Rear": 47.18
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -8564,7 +8564,7 @@
         "Speed_Rear": 46.71
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -8597,7 +8597,7 @@
         "Speed_Rear": 46.24
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -8630,7 +8630,7 @@
         "Speed_Rear": 45.82
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -8663,7 +8663,7 @@
         "Speed_Rear": 45.31
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -8696,7 +8696,7 @@
         "Speed_Rear": 45.125
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -8726,7 +8726,7 @@
         "Speed_Rear": 44.71
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -8759,7 +8759,7 @@
         "Speed_Rear": 44.345
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -8792,7 +8792,7 @@
         "Speed_Rear": 44.11
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -8825,7 +8825,7 @@
         "Speed_Rear": 44.25
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -8858,7 +8858,7 @@
         "Speed_Rear": 44.485
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -8891,7 +8891,7 @@
         "Speed_Rear": 44.85
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -8924,7 +8924,7 @@
         "Speed_Rear": 45.235
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -8957,7 +8957,7 @@
         "Speed_Rear": 45.125
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -8990,7 +8990,7 @@
         "Speed_Rear": 44.945
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9023,7 +9023,7 @@
         "Speed_Rear": 44.85
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9056,7 +9056,7 @@
         "Speed_Rear": 44.74
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9089,7 +9089,7 @@
         "Speed_Rear": 44.300000000000004
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9122,7 +9122,7 @@
         "Speed_Rear": 44.075
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9155,7 +9155,7 @@
         "Speed_Rear": 44.1
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9188,7 +9188,7 @@
         "Speed_Rear": 43.4
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9221,7 +9221,7 @@
         "Speed_Rear": 42.955
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9254,7 +9254,7 @@
         "Speed_Rear": 42.655
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9287,7 +9287,7 @@
         "Speed_Rear": 42.77
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9320,7 +9320,7 @@
         "Speed_Rear": 42.61
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9353,7 +9353,7 @@
         "Speed_Rear": 42.62
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9386,7 +9386,7 @@
         "Speed_Rear": 41.915
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9419,7 +9419,7 @@
         "Speed_Rear": 42.085
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9452,7 +9452,7 @@
         "Speed_Rear": 42.215
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9485,7 +9485,7 @@
         "Speed_Rear": 42.02
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9518,7 +9518,7 @@
         "Speed_Rear": 42.18
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9551,7 +9551,7 @@
         "Speed_Rear": 41.82
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9584,7 +9584,7 @@
         "Speed_Rear": 42.065
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9617,7 +9617,7 @@
         "Speed_Rear": 41.925000000000004
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9650,7 +9650,7 @@
         "Speed_Rear": 41.88
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9683,7 +9683,7 @@
         "Speed_Rear": 41.83
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9716,7 +9716,7 @@
         "Speed_Rear": 41.785000000000004
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9749,7 +9749,7 @@
         "Speed_Rear": 41.495
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9782,7 +9782,7 @@
         "Speed_Rear": 41.550000000000004
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9815,7 +9815,7 @@
         "Speed_Rear": 41.175000000000004
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9848,7 +9848,7 @@
         "Speed_Rear": 40.865
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9881,7 +9881,7 @@
         "Speed_Rear": 40.695
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9914,7 +9914,7 @@
         "Speed_Rear": 40.52
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9947,7 +9947,7 @@
         "Speed_Rear": 40.92
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -9980,7 +9980,7 @@
         "Speed_Rear": 40.67
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -10013,7 +10013,7 @@
         "Speed_Rear": 40.81
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -10046,7 +10046,7 @@
         "Speed_Rear": 40.910000000000004
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -10079,7 +10079,7 @@
         "Speed_Rear": 40.77
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -10112,7 +10112,7 @@
         "Speed_Rear": 40.565
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -10145,7 +10145,7 @@
         "Speed_Rear": 40.49
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -10178,7 +10178,7 @@
         "Speed_Rear": 40.395
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -10211,7 +10211,7 @@
         "Speed_Rear": 40.265
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -10244,7 +10244,7 @@
         "Speed_Rear": 40.105000000000004
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -10673,7 +10673,7 @@
         "Speed_Rear": 23.23
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -10706,7 +10706,7 @@
         "Speed_Rear": 22.73
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -10739,7 +10739,7 @@
         "Speed_Rear": 21.240000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -10772,7 +10772,7 @@
         "Speed_Rear": 21.935
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -10805,7 +10805,7 @@
         "Speed_Rear": 22.535
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -10838,7 +10838,7 @@
         "Speed_Rear": 22.45
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -10871,7 +10871,7 @@
         "Speed_Rear": 23.96
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -10904,7 +10904,7 @@
         "Speed_Rear": 24.55
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -10937,7 +10937,7 @@
         "Speed_Rear": 25.66
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -10970,7 +10970,7 @@
         "Speed_Rear": 27.085
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11003,7 +11003,7 @@
         "Speed_Rear": 27.985
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11036,7 +11036,7 @@
         "Speed_Rear": 29.075
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11069,7 +11069,7 @@
         "Speed_Rear": 30.0
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11102,7 +11102,7 @@
         "Speed_Rear": 31.165
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11135,7 +11135,7 @@
         "Speed_Rear": 32.3
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11168,7 +11168,7 @@
         "Speed_Rear": 32.89
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11201,7 +11201,7 @@
         "Speed_Rear": 34.065
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11234,7 +11234,7 @@
         "Speed_Rear": 34.86
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11267,7 +11267,7 @@
         "Speed_Rear": 35.65
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11300,7 +11300,7 @@
         "Speed_Rear": 36.345
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11333,7 +11333,7 @@
         "Speed_Rear": 36.465
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11366,7 +11366,7 @@
         "Speed_Rear": 36.69
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11399,7 +11399,7 @@
         "Speed_Rear": 36.550000000000004
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11432,7 +11432,7 @@
         "Speed_Rear": 36.655
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11465,7 +11465,7 @@
         "Speed_Rear": 36.635
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11498,7 +11498,7 @@
         "Speed_Rear": 36.67
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11531,7 +11531,7 @@
         "Speed_Rear": 36.72
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11564,7 +11564,7 @@
         "Speed_Rear": 36.745
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11597,7 +11597,7 @@
         "Speed_Rear": 36.795
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11630,7 +11630,7 @@
         "Speed_Rear": 36.635
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11672,7 +11672,7 @@
         "Speed_Rear": 36.37
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11696,7 +11696,7 @@
         "Speed_Rear": 36.27
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11738,7 +11738,7 @@
         "Speed_Rear": 35.985
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11762,7 +11762,7 @@
         "Speed_Rear": 35.79
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11804,7 +11804,7 @@
         "Speed_Rear": 35.49
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11837,7 +11837,7 @@
         "Speed_Rear": 35.35
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11861,7 +11861,7 @@
         "Speed_Rear": 35.255
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11903,7 +11903,7 @@
         "Speed_Rear": 35.21
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11927,7 +11927,7 @@
         "Speed_Rear": 35.07
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11969,7 +11969,7 @@
         "Speed_Rear": 34.935
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -11993,7 +11993,7 @@
         "Speed_Rear": 34.795
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -12035,7 +12035,7 @@
         "Speed_Rear": 34.825
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -12455,7 +12455,7 @@
         "Speed_Rear": 21.475
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -12488,7 +12488,7 @@
         "Speed_Rear": 20.95
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -12521,7 +12521,7 @@
         "Speed_Rear": 20.97
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -12554,7 +12554,7 @@
         "Speed_Rear": 20.78
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -12587,7 +12587,7 @@
         "Speed_Rear": 20.885
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -12620,7 +12620,7 @@
         "Speed_Rear": 20.76
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -12653,7 +12653,7 @@
         "Speed_Rear": 21.41
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -12686,7 +12686,7 @@
         "Speed_Rear": 21.97
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -12719,7 +12719,7 @@
         "Speed_Rear": 22.805
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -12752,7 +12752,7 @@
         "Speed_Rear": 23.54
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -12785,7 +12785,7 @@
         "Speed_Rear": 24.3
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -12818,7 +12818,7 @@
         "Speed_Rear": 24.740000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -12851,7 +12851,7 @@
         "Speed_Rear": 25.595
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -12893,7 +12893,7 @@
         "Speed_Rear": 26.080000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -12917,7 +12917,7 @@
         "Speed_Rear": 26.935000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -12950,7 +12950,7 @@
         "Speed_Rear": 28.015
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -12983,7 +12983,7 @@
         "Speed_Rear": 28.080000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -13016,7 +13016,7 @@
         "Speed_Rear": 28.05
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -13049,7 +13049,7 @@
         "Speed_Rear": 28.015
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -13082,7 +13082,7 @@
         "Speed_Rear": 28.005
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -13115,7 +13115,7 @@
         "Speed_Rear": 27.88
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -13148,7 +13148,7 @@
         "Speed_Rear": 28.305
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -13181,7 +13181,7 @@
         "Speed_Rear": 28.565
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -13214,7 +13214,7 @@
         "Speed_Rear": 29.26
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -13247,7 +13247,7 @@
         "Speed_Rear": 29.45
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -13280,7 +13280,7 @@
         "Speed_Rear": 29.57
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -13313,7 +13313,7 @@
         "Speed_Rear": 29.385
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -13346,7 +13346,7 @@
         "Speed_Rear": 29.375
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -13379,7 +13379,7 @@
         "Speed_Rear": 29.14
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -13412,7 +13412,7 @@
         "Speed_Rear": 28.68
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -13445,7 +13445,7 @@
         "Speed_Rear": 28.445
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -13478,7 +13478,7 @@
         "Speed_Rear": 27.985
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -13511,7 +13511,7 @@
         "Speed_Rear": 27.525000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -13544,7 +13544,7 @@
         "Speed_Rear": 28.07
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -13577,7 +13577,7 @@
         "Speed_Rear": 28.240000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -13610,7 +13610,7 @@
         "Speed_Rear": 28.37
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -13643,7 +13643,7 @@
         "Speed_Rear": 28.745
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -13676,7 +13676,7 @@
         "Speed_Rear": 28.435000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -13709,7 +13709,7 @@
         "Speed_Rear": 28.425
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -13742,7 +13742,7 @@
         "Speed_Rear": 28.19
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -13775,7 +13775,7 @@
         "Speed_Rear": 27.79
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -13808,7 +13808,7 @@
         "Speed_Rear": 27.375
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -13841,7 +13841,7 @@
         "Speed_Rear": 26.580000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -13874,7 +13874,7 @@
         "Speed_Rear": 26.97
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -13907,7 +13907,7 @@
         "Speed_Rear": 26.185000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -13949,7 +13949,7 @@
         "Speed_Rear": 26.42
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -13982,7 +13982,7 @@
         "Speed_Rear": 26.505
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14015,7 +14015,7 @@
         "Speed_Rear": 26.625
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14048,7 +14048,7 @@
         "Speed_Rear": 27.085
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14081,7 +14081,7 @@
         "Speed_Rear": 27.365000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14114,7 +14114,7 @@
         "Speed_Rear": 27.02
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14147,7 +14147,7 @@
         "Speed_Rear": 26.955000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14180,7 +14180,7 @@
         "Speed_Rear": 25.405
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14213,7 +14213,7 @@
         "Speed_Rear": 26.12
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14246,7 +14246,7 @@
         "Speed_Rear": 25.19
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14279,7 +14279,7 @@
         "Speed_Rear": 24.71
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14312,7 +14312,7 @@
         "Speed_Rear": 24.14
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14345,7 +14345,7 @@
         "Speed_Rear": 23.765
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14378,7 +14378,7 @@
         "Speed_Rear": 23.325
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14411,7 +14411,7 @@
         "Speed_Rear": 22.740000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14435,7 +14435,7 @@
         "Speed_Rear": 22.095
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14477,7 +14477,7 @@
         "Speed_Rear": 21.56
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14510,7 +14510,7 @@
         "Speed_Rear": 20.93
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14534,7 +14534,7 @@
         "Speed_Rear": 20.535
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14576,7 +14576,7 @@
         "Speed_Rear": 20.265
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14600,7 +14600,7 @@
         "Speed_Rear": 19.975
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14642,7 +14642,7 @@
         "Speed_Rear": 19.900000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14666,7 +14666,7 @@
         "Speed_Rear": 19.25
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14708,7 +14708,7 @@
         "Speed_Rear": 19.29
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14741,7 +14741,7 @@
         "Speed_Rear": 18.68
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14765,7 +14765,7 @@
         "Speed_Rear": 18.54
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14798,7 +14798,7 @@
         "Speed_Rear": 17.89
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14831,7 +14831,7 @@
         "Speed_Rear": 17.385
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14864,7 +14864,7 @@
         "Speed_Rear": 16.495
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14897,7 +14897,7 @@
         "Speed_Rear": 16.055
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14930,7 +14930,7 @@
         "Speed_Rear": 15.855
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14963,7 +14963,7 @@
         "Speed_Rear": 15.610000000000001
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -14996,7 +14996,7 @@
         "Speed_Rear": 15.405000000000001
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -15029,7 +15029,7 @@
         "Speed_Rear": 15.34
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -15062,7 +15062,7 @@
         "Speed_Rear": 15.115
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -15095,7 +15095,7 @@
         "Speed_Rear": 15.275
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -15128,7 +15128,7 @@
         "Speed_Rear": 15.595
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -15161,7 +15161,7 @@
         "Speed_Rear": 15.835
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -15194,7 +15194,7 @@
         "Speed_Rear": 16.25
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -15227,7 +15227,7 @@
         "Speed_Rear": 16.605
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -15260,7 +15260,7 @@
         "Speed_Rear": 17.265
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -15293,7 +15293,7 @@
         "Speed_Rear": 18.165
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -15326,7 +15326,7 @@
         "Speed_Rear": 18.715
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -15359,7 +15359,7 @@
         "Speed_Rear": 19.175
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -15392,7 +15392,7 @@
         "Speed_Rear": 19.56
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -15425,7 +15425,7 @@
         "Speed_Rear": 20.21
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -15458,7 +15458,7 @@
         "Speed_Rear": 20.735
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -15491,7 +15491,7 @@
         "Speed_Rear": 21.325
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -15524,7 +15524,7 @@
         "Speed_Rear": 21.915
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -15557,7 +15557,7 @@
         "Speed_Rear": 22.555
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -15590,7 +15590,7 @@
         "Speed_Rear": 23.145
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -15623,7 +15623,7 @@
         "Speed_Rear": 23.95
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -15656,7 +15656,7 @@
         "Speed_Rear": 24.775000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -15689,7 +15689,7 @@
         "Speed_Rear": 25.2
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -15722,7 +15722,7 @@
         "Speed_Rear": 25.865000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -15755,7 +15755,7 @@
         "Speed_Rear": 26.560000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -15788,7 +15788,7 @@
         "Speed_Rear": 27.115000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -15821,7 +15821,7 @@
         "Speed_Rear": 27.19
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -15854,7 +15854,7 @@
         "Speed_Rear": 27.215
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -15887,7 +15887,7 @@
         "Speed_Rear": 26.915
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -15920,7 +15920,7 @@
         "Speed_Rear": 26.495
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1549": {
         "Headlight_State": "On Second",
@@ -15962,7 +15962,7 @@
         "Speed_Rear": 26.615000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -15995,7 +15995,7 @@
         "Speed_Rear": 26.455000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16028,7 +16028,7 @@
         "Speed_Rear": 26.71
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16061,7 +16061,7 @@
         "Speed_Rear": 26.87
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16094,7 +16094,7 @@
         "Speed_Rear": 27.01
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16127,7 +16127,7 @@
         "Speed_Rear": 27.14
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16160,7 +16160,7 @@
         "Speed_Rear": 27.095
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16193,7 +16193,7 @@
         "Speed_Rear": 27.28
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16226,7 +16226,7 @@
         "Speed_Rear": 27.395
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16259,7 +16259,7 @@
         "Speed_Rear": 27.685000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16292,7 +16292,7 @@
         "Speed_Rear": 27.685000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16325,7 +16325,7 @@
         "Speed_Rear": 27.715
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16358,7 +16358,7 @@
         "Speed_Rear": 27.075
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16391,7 +16391,7 @@
         "Speed_Rear": 26.71
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16424,7 +16424,7 @@
         "Speed_Rear": 26.53
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16457,7 +16457,7 @@
         "Speed_Rear": 25.95
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16490,7 +16490,7 @@
         "Speed_Rear": 25.595
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16523,7 +16523,7 @@
         "Speed_Rear": 25.97
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16556,7 +16556,7 @@
         "Speed_Rear": 25.8
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16589,7 +16589,7 @@
         "Speed_Rear": 25.855
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16622,7 +16622,7 @@
         "Speed_Rear": 25.36
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16655,7 +16655,7 @@
         "Speed_Rear": 24.965
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16688,7 +16688,7 @@
         "Speed_Rear": 24.385
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16721,7 +16721,7 @@
         "Speed_Rear": 23.875
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16745,7 +16745,7 @@
         "Speed_Rear": 23.565
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16778,7 +16778,7 @@
         "Speed_Rear": 22.88
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16811,7 +16811,7 @@
         "Speed_Rear": 22.375
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16844,7 +16844,7 @@
         "Speed_Rear": 22.075
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16877,7 +16877,7 @@
         "Speed_Rear": 21.505
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16910,7 +16910,7 @@
         "Speed_Rear": 21.37
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16943,7 +16943,7 @@
         "Speed_Rear": 21.145
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -16976,7 +16976,7 @@
         "Speed_Rear": 21.165
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -17009,7 +17009,7 @@
         "Speed_Rear": 20.995
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -17042,7 +17042,7 @@
         "Speed_Rear": 20.715
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -17075,7 +17075,7 @@
         "Speed_Rear": 20.725
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -17108,7 +17108,7 @@
         "Speed_Rear": 20.595
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -17141,7 +17141,7 @@
         "Speed_Rear": 20.565
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -17174,7 +17174,7 @@
         "Speed_Rear": 20.415
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -17207,7 +17207,7 @@
         "Speed_Rear": 20.585
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -17240,7 +17240,7 @@
         "Speed_Rear": 20.275000000000002
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -17273,7 +17273,7 @@
         "Speed_Rear": 20.265
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -17537,7 +17537,7 @@
         "Speed_Rear": 9.345
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -17570,7 +17570,7 @@
         "Speed_Rear": 8.82
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -17603,7 +17603,7 @@
         "Speed_Rear": 8.325
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -17636,7 +17636,7 @@
         "Speed_Rear": 8.65
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -17669,7 +17669,7 @@
         "Speed_Rear": 9.72
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -17702,7 +17702,7 @@
         "Speed_Rear": 10.535
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -17735,7 +17735,7 @@
         "Speed_Rear": 11.67
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -17768,7 +17768,7 @@
         "Speed_Rear": 13.36
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -17801,7 +17801,7 @@
         "Speed_Rear": 14.485
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -17834,7 +17834,7 @@
         "Speed_Rear": 14.945
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -17867,7 +17867,7 @@
         "Speed_Rear": 15.07
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -17900,7 +17900,7 @@
         "Speed_Rear": 15.07
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -17933,7 +17933,7 @@
         "Speed_Rear": 14.655000000000001
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -17966,7 +17966,7 @@
         "Speed_Rear": 13.85
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -17999,7 +17999,7 @@
         "Speed_Rear": 14.14
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -18032,7 +18032,7 @@
         "Speed_Rear": 14.055
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -18065,7 +18065,7 @@
         "Speed_Rear": 14.475
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -18098,7 +18098,7 @@
         "Speed_Rear": 14.9
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -18131,7 +18131,7 @@
         "Speed_Rear": 15.370000000000001
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -18164,7 +18164,7 @@
         "Speed_Rear": 15.595
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -18197,7 +18197,7 @@
         "Speed_Rear": 15.405000000000001
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -18230,7 +18230,7 @@
         "Speed_Rear": 15.370000000000001
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -18263,7 +18263,7 @@
         "Speed_Rear": 15.715
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -18296,7 +18296,7 @@
         "Speed_Rear": 16.035
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -18329,7 +18329,7 @@
         "Speed_Rear": 16.045
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -18362,7 +18362,7 @@
         "Speed_Rear": 15.855
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -18395,7 +18395,7 @@
         "Speed_Rear": 15.745000000000001
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -18527,7 +18527,7 @@
         "Speed_Rear": 14.045
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -18560,7 +18560,7 @@
         "Speed_Rear": 13.595
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -18593,7 +18593,7 @@
         "Speed_Rear": 13.435
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -18626,7 +18626,7 @@
         "Speed_Rear": 13.135
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -18659,7 +18659,7 @@
         "Speed_Rear": 12.63
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -18692,7 +18692,7 @@
         "Speed_Rear": 12.44
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -18725,7 +18725,7 @@
         "Speed_Rear": 11.805
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -18758,7 +18758,7 @@
         "Speed_Rear": 11.465
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -18791,7 +18791,7 @@
         "Speed_Rear": 11.22
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -18824,7 +18824,7 @@
         "Speed_Rear": 10.855
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -18857,7 +18857,7 @@
         "Speed_Rear": 10.695
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -18890,7 +18890,7 @@
         "Speed_Rear": 10.535
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
@@ -18923,7 +18923,7 @@
         "Speed_Rear": 10.36
     },
     "658": {
-        "Brake": 0
+        "Brake": 20
     },
     "1057": {
         "Gear_Position": "Drive"
