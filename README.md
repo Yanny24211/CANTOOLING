@@ -1,6 +1,16 @@
 # CAN Tooling
 
-A Python-based virtual CAN bus simulation and parsing framework for automotive and embedded systems development.
+A Python-based virtual CAN bus simulation and parsing framework for automotive and embedded systems development. This is the subsection which deals with the actual fetching, parsing, categorizing and publishing aspects of the Risk Avoidance Systems. This module contains the scripts to initiate and set-up a new connection with a vehicle as well as the scripts to begin reading, categorizing and publishing risky data. The module also contains code to simulate test data as well as replay previous CAN data. Overall the CANbus data is read by the CL2000 which streams the raw data to a python script that proceeds to decode the data using a dbc file. A frame is produced every 16Hz (bumped down from 50Hz for performance reasons), each frame consists of the required vehicle data such as throttle, brake percentages, steering angle, gps coordinates, handbrake and turn signals statuses as well as door status. After the production of each frame, it is passed to a function responsible for determining risks present in the data by cross refrencing the frame against a set of rules constructed by us (i.e: Hard braking, turn without signal, unsafe acceleration), meanwhile theres a camera detection script which idenitfies the users attentiveness produces data which is also categorized alongside the frame. If risks have been found, the system publishes the risk object along with vehicle data to the RAS server which checks the geohash of the risky vehicle and notifies other vehicles around the risky car via each connected car's CarPlay/Android Auto Instances
+
+Overall the RAS is composed of 4 subsystems: 
+
+The CANBUS Categorization and Publish Module (This Github Repository)
+
+The Video Dection Module: https://github.com/deep-patel21/VideoDetectionModule-RAS
+
+The MQTT RAS Server: https://github.com/RyanKhuu/Capstone-MQTT
+
+The Android Auto Interface: https://github.com/anmolp476/AndroidAutoAppForRAS
 
 ## Overview
 
